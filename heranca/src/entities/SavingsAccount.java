@@ -1,6 +1,6 @@
 package entities;
 
-public class SavingsAccount extends Account{
+public final class SavingsAccount extends Account{ // final informa que essa classe nao pode ter subclasses pois e uma final class
 	private Double interestRate;
 	
 	public SavingsAccount () {
@@ -25,7 +25,7 @@ public class SavingsAccount extends Account{
 		balance += balance * interestRate;
 	}
 	@Override // ANOTACAO PARA SOBRESCREVER ( METODO WITHDRAW ORIUNDO DO Account )
-	public void withdraw(Double amount) {
+	public final void withdraw(Double amount) {
 		balance -= amount;
 	}
 	

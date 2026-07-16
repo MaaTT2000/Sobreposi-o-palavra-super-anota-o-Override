@@ -16,7 +16,6 @@ public class Program {
 		
 		// DOWNCASTING
 	
-
 		// Se a acc3 for da instancia da BusinessAccount entao faz o loan
 		if (acc3 instanceof BusinessAccount) {
 			BusinessAccount acc5 = (BusinessAccount)acc3;
@@ -40,7 +39,4 @@ public class Program {
 			System.out.println(acc80.getBalance()); // Exemplo de uso do @Override + Super
 			
 		}
-		
-
-
 }
