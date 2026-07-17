@@ -78,17 +78,22 @@ Legenda:
 
 ## 📅 Dia 01
 
-**Data:**
+**16/07/2026:**
 
 ### Conteúdo estudado
-
+ Sobreposição, palavra super, anotação @Override
 -
 
 ### O que aprendi
 
+Hoje aprendi a importância da anotação `@Override`. Ela indica que um método está sobrescrevendo um método herdado da classe pai (ou implementando um método de uma interface). Isso permite personalizar o comportamento desse método de acordo com a regra de negócio da classe filha.
+
+Também aprendi que a palavra-chave `super` permite acessar a implementação da classe pai. Dessa forma, é possível reutilizar a lógica existente e complementar seu funcionamento com novas instruções na classe filha.
+
 -
 
 ### Exercícios realizados
+
 
 -
 
