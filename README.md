@@ -95,15 +95,8 @@ Também aprendi que a palavra-chave `super` permite acessar a implementação da
 ### Exercícios realizados
 
 
--
+ex-fix-prod-imp-common-used ( Exercicio realizado -- Produtos de estoque, com base no tipo de produto entre IMPORTADO | COMUM | USADO , dependendo do tipo de produto, a tag de preço é montada diferente )
 
-### Dificuldades
-
--
-
-### Como resolvi
-
--
 
 ### Observações
 
