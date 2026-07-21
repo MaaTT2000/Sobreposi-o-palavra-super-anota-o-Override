@@ -90,7 +90,6 @@ Hoje aprendi a importância da anotação `@Override`. Ela indica que um método
 
 Também aprendi que a palavra-chave `super` permite acessar a implementação da classe pai. Dessa forma, é possível reutilizar a lógica existente e complementar seu funcionamento com novas instruções na classe filha.
 
--
 
 ### Exercícios realizados
 
