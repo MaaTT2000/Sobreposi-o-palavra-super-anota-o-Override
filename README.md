@@ -105,25 +105,26 @@ ex-fix-prod-imp-common-used ( Exercicio realizado -- Produtos de estoque, com ba
 
 ## 📅 Dia 02
 
-**Data:**
+**22/07/2026:**
 
 ### Conteúdo estudado
+Classes abstratas e métodos abstratos
 
--
+Classes abstratas são classes que não podem ser instanciadas diretamente. Elas servem como um modelo ou base para outras classes, permitindo compartilhar atributos, métodos e comportamentos comuns. Além disso, podem conter métodos concretos (com implementação) e métodos abstratos (sem implementação).
+
+Métodos abstratos são declarados sem implementação e obrigam as classes concretas que herdam da classe abstrata a fornecer sua própria implementação, a menos que a classe filha também seja abstrata.
+
+Em Java, um método abstrato só pode ser declarado dentro de uma classe abstrata (ou de uma interface).
 
 ### O que aprendi
 
--
+- Compreendi que uma classe abstrata serve como uma base para outras classes e não pode ser instanciada diretamente.
+- Aprendi que uma classe abstrata pode conter tanto métodos concretos quanto métodos abstratos.
+- Entendi que um método abstrato não possui implementação e funciona como um contrato que obriga as subclasses concretas a implementarem seu comportamento.
+- Percebi que nem toda classe filha precisa implementar os métodos abstratos imediatamente; se ela também for abstrata, essa obrigação pode ser repassada para  outra subclasse.
+- Aprendi que esse recurso é utilizado para promover reutilização de código e padronizar comportamentos entre diferentes classes.
 
 ### Exercícios realizados
-
--
-
-### Dificuldades
-
--
-
-### Como resolvi
 
 -
 
